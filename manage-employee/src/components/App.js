@@ -16,7 +16,6 @@ class App extends Component {
       lng,
     });
   }
-
   render() {
     const { lng } = this.state;
     return (
@@ -38,5 +37,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
